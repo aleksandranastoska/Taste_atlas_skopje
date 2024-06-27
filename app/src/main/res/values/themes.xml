@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/textColor</item>
+
+        <!-- Secondary colors -->
+        <item name="colorSecondary">@color/accentColor</item>
+        <item name="colorSecondaryVariant">@color/accentColor</item>
+        <item name="colorOnSecondary">@color/textColor</item>
+
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/backgroundColor</item>
+        <item name="colorSurface">@color/backgroundColor</item>
+        <item name="colorOnSurface">@color/textColorPrimary</item>
+
+        <!-- Text colors -->
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+
+        <!-- Customizations for various components -->
+        <item name="bottomNavigationStyle">@style/BottomNavigation</item>
+        <item name="buttonStyle">@style/ButtonStyle</item>
+    </style>
+
+    <!-- Bottom Navigation Style -->
+    <style name="BottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="itemIconTint">@color/textColorPrimary</item>
+        <item name="itemTextColor">@color/textColorPrimary</item>
+        <item name="backgroundTint">@color/navBackgroundColor</item>
+    </style>
+
+    <!-- Button Style -->
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="backgroundTint">@color/primaryColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/rounded_button</item>
+    </style>
+</resources>

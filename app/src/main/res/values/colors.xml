@@ -1,0 +1,9 @@
+<resources>
+    <color name="primaryColor">#006400</color>
+    <color name="accentColor">#cc9900</color>
+    <color name="backgroundColor">#ffffff</color>
+    <color name="textColor">#ffffff</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="navBackgroundColor">#B0B0B0</color>
+</resources>

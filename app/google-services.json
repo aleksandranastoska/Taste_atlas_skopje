@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1039563302104",
+    "firebase_url": "https://taste-atlas-skopje-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "taste-atlas-skopje",
+    "storage_bucket": "taste-atlas-skopje.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039563302104:android:0c9741e207eef2a46f23ad",
+        "android_client_info": {
+          "package_name": "mk.ukim.finki.mpip.tasteatlasskopje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039563302104-5mheg24eqnubuftbbvdcu97h3gd4s47e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq38hbcdIclmq5hOgKw7Ku8_p1IYPmEyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039563302104-5mheg24eqnubuftbbvdcu97h3gd4s47e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
